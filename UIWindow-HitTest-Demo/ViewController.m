@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OverlayController.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    OverlayController *controller = [[OverlayController alloc]init];
+    [controller performSelector:NSSelectorFromString(@"show")];
 }
 
+- (IBAction)windowAclickAction:(UIButton *)sender {
+    NSLog(@"click window A");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

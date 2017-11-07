@@ -13,6 +13,7 @@
 		013DDAD91FB20307005AA2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013DDAD81FB20307005AA2D8 /* Assets.xcassets */; };
 		013DDADC1FB20307005AA2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013DDADA1FB20307005AA2D8 /* LaunchScreen.storyboard */; };
 		013DDADF1FB20307005AA2D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013DDADE1FB20307005AA2D8 /* main.m */; };
+		013DDAE71FB203C6005AA2D8 /* OverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013DDAE61FB203C6005AA2D8 /* OverlayController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		013DDADB1FB20307005AA2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		013DDADD1FB20307005AA2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		013DDADE1FB20307005AA2D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013DDAE51FB203C6005AA2D8 /* OverlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayController.h; sourceTree = "<group>"; };
+		013DDAE61FB203C6005AA2D8 /* OverlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				013DDAD01FB20307005AA2D8 /* AppDelegate.m */,
 				013DDAD21FB20307005AA2D8 /* ViewController.h */,
 				013DDAD31FB20307005AA2D8 /* ViewController.m */,
+				013DDAE51FB203C6005AA2D8 /* OverlayController.h */,
+				013DDAE61FB203C6005AA2D8 /* OverlayController.m */,
 				013DDAD51FB20307005AA2D8 /* Main.storyboard */,
 				013DDAD81FB20307005AA2D8 /* Assets.xcassets */,
 				013DDADA1FB20307005AA2D8 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013DDAE71FB203C6005AA2D8 /* OverlayController.m in Sources */,
 				013DDAD41FB20307005AA2D8 /* ViewController.m in Sources */,
 				013DDADF1FB20307005AA2D8 /* main.m in Sources */,
 				013DDAD11FB20307005AA2D8 /* AppDelegate.m in Sources */,
